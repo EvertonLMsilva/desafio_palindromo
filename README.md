@@ -30,8 +30,8 @@
         {"ano": "12/02/2021"}
 
 # ERROS
-    - A falta da key "ano", retorno erro 404
-    - Parametros no formato diferente de "DD/MM/YYYY", retorna erro 404.
+    - A falta da key "ano", retorna o erro 404
+    - Parametros no formato diferente de "DD/MM/YYYY", retorna o erro 404.
 
 ----------------------------------------------------------------------------------
 

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "sls offline",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "serverless-offline": "^7.0.0"
+  }
+}

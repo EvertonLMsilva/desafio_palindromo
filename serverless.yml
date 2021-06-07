@@ -1,0 +1,21 @@
+service: desafio
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  stage: dev
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  region: sa-east-1
+  
+plugins:
+  - serverless-offline
+
+functions:
+  handler:
+    handler: desafio.handler
+    events:
+      - http:
+          path: date
+          method: post
